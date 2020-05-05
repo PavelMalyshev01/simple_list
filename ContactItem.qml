@@ -39,10 +39,12 @@ Rectangle {
                 id: label
                 font.pixelSize: 18
                 Layout.fillWidth: true
+                elide: Label.ElideRight
             }
             Label{
                 id: status
                 Layout.fillWidth: true
+                elide: Label.ElideRight
             }
         }
     }

@@ -10,6 +10,7 @@ RowLayout {
         placeholderText: "Новый чат"
         Layout.fillWidth: true
         selectByMouse: true
+        focus: true
     }
 
     function add(){
@@ -21,6 +22,7 @@ RowLayout {
 
     Button{
         text: "Добавить"
+        highlighted: true
         onClicked: {
             add();
         }
